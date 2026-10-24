@@ -3,6 +3,9 @@
 //
 
 soong_namespace {
+    imports: [
+        "vendor/qcom/common/system/perf",
+    ],
 }
 
 cc_prebuilt_library_shared {
